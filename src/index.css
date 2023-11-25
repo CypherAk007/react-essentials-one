@@ -36,6 +36,8 @@ html{
   font-size: 62.5%;
   --color-primary:#511a8d;
   --color-primary-light:#b279ee;
+  --color-silver:#c0c0c0;
+  --color-matt-black:#28282B;
 }
 
 code {

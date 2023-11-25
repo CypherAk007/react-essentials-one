@@ -1,5 +1,23 @@
 .card{
-    background-color: white;
-    max-width: 80rem;
+    background-color: var(--color-matt-black);
+    max-width: 90rem;
     margin: 8rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 3rem;
+    &__elements{
+        display: flex;
+        justify-content: space-around;
+        align-self: stretch;
+        // justify-content: space-between;
+        // gap:10rem;
+        
+    }
+    &__heading{
+        color: var(--color-silver);
+
+        font-size: 3rem;
+    }
 }

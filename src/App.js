@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import classes from './App.scss';
 import Header from './components/Header';
 import { createGlobalStyle } from 'styled-components';
 import MainCard from './components/MainCard';
@@ -10,6 +10,7 @@ function App() {
 
     <Header></Header>
     <MainCard></MainCard>
+    
     </>
   );
 }
