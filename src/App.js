@@ -3,6 +3,7 @@ import classes from './App.scss';
 import Header from './components/Header';
 import { createGlobalStyle } from 'styled-components';
 import MainCard from './components/MainCard';
+import Examples from './components/Examples';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
 
     <Header></Header>
     <MainCard></MainCard>
-    
+    <Examples></Examples>
     </>
   );
 }

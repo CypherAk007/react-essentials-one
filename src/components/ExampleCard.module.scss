@@ -1,0 +1,24 @@
+.exampleCard{
+    font-family: 'Fira Code', monospace;
+    color: white;
+    font-size: 3rem;
+    background-color: var(--color-matt-black);
+    max-width: 90rem;
+    min-height: 35rem;
+    // margin: 1rem auto;
+    // margin-bottom: 10rem;
+    border-radius: 2rem;
+    padding: 2rem;
+
+    &__heading{
+        margin-bottom: 2rem;
+    }
+    &__text{
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+    &__obj{
+        font-size: 1.5rem;
+        font-family: 'Fira Code', monospace;
+    }
+}

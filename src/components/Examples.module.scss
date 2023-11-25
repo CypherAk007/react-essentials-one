@@ -1,0 +1,51 @@
+.examples{
+    // background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    max-width: 90rem;
+    // align-items: ce÷nter;
+    margin: 8rem auto;
+    // margin: 2rem 0;
+    // padding: 2rem 0;
+    justify-content: space-between;
+
+    &__heading{
+        font-size: 5rem;
+        display: inline-block;
+        background-image: linear-gradient(to right,var(--color-silver),var(--color-primary-light));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &__textButton{
+        margin-bottom: 2rem;
+        // align-self: stretch;
+        // display: flex;  
+        // flex-direction: column;
+        
+        // // justify-content: end;
+        // // align-items: center;
+        // margin-left: 40rem;
+
+    }
+}
+.btn_box{
+}
+.btn{
+    text-decoration: none;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    color:white;
+    border: none;    
+    &:hover{
+        background-color: var(--color-primary-light);
+    }
+    &:focus{
+        text-decoration: none;
+        background-color: var(--color-primary-light);
+    }
+}
