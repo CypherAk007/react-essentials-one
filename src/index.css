@@ -1,13 +1,44 @@
-body {
+@import url(https://db.onlinewebfonts.com/c/b4789352e8c600554d90d78d2733cdce?family=John+Wick);
+@font-face {
+  font-family: "John Wick";
+  src: url("https://db.onlinewebfonts.com/t/b4789352e8c600554d90d78d2733cdce.eot");
+  src: url("https://db.onlinewebfonts.com/t/b4789352e8c600554d90d78d2733cdce.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/b4789352e8c600554d90d78d2733cdce.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/b4789352e8c600554d90d78d2733cdce.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/b4789352e8c600554d90d78d2733cdce.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/b4789352e8c600554d90d78d2733cdce.svg#John Wick")format("svg");
+}
+*,
+*::after,
+*::before{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  box-sizing: inherit;
+}
+:root{
+  --color-primary:#511a8d;
+  --color-primary-light:#b279ee;
+}
+body {
+  
+  font-family:"John Wick", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(#280a48, #20043d);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  line-height: 1.0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  --color-primary:#511a8d;
+  --color-primary-light:#b279ee;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:"John Wick" ,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
