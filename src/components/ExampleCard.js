@@ -1,10 +1,5 @@
 import classes from './ExampleCard.module.scss'
 
-{/* <pre>
-            <code>{obj}</code>
-        </pre> */}
-
-
 const ExampleCard = (props)=>{
     return(
     <div className={classes.exampleCard}>
