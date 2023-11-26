@@ -1,6 +1,6 @@
 import {createSlice} from "@reduxjs/toolkit"
 
-const initialSwitchState = {heading:'',text:'',object:``}
+const initialSwitchState = {heading:'PLEASE SELECT A TOPIC!!',text:'',object:``}
 
 const switchSlice = createSlice({
     name:'switcher',

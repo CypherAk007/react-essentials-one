@@ -1,0 +1,17 @@
+.btn{
+    text-decoration: none;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    color:white;
+    border: none;    
+    &:hover{
+        background-color: var(--color-primary-light);
+    }
+    &:focus{
+        text-decoration: none;
+        background-color: var(--color-primary-light);
+    }
+}
